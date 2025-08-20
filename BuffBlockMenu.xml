@@ -27,7 +27,7 @@
 	<Frame name="BuffBlockOptions" toplevel="true" movable="true" parent="UIParent" enableMouse="true" hidden="true">
 		<TitleRegion setAllPoints="true"/>
 		<Size>
-			<AbsDimension x="225" y="355" />
+			<AbsDimension x="225" y="515" />
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER" />
