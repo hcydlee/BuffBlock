@@ -1,8 +1,8 @@
 ## Interface: 11200
 ## Title: BuffBlock
 ## Version: 1.4
-## Author: Zeitung - Forked from Armilus's BuffBlock
+## Author: Hcydlee- Forked from Zeitung's BuffBlock
 ## SavedVariables: BUFF_CONFIG
-## Notes: Automatically removes selected buffs
+## Notes: Automatically removes selected buffs， update to remove more buff in Turtle WoW
 BuffBlock.xml
 BuffBlockMenu.xml
