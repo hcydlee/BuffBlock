@@ -308,7 +308,125 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-
+			<CheckButton name="GreaterSanctuaryCheckbox" inherits="BuffBlockCheckboxTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="SmartTankingCheckbox">
+						<Offset>
+							<AbsDimension x="0" y="-25" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						BuffBlock_GetOption(10);
+					</OnShow>
+					<OnClick>
+						BuffBlock_SetOption(10);
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+						<CheckButton name="BlessingSanctuaryCheckbox" inherits="BuffBlockCheckboxTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="GreaterSanctuaryCheckbox">
+						<Offset>
+							<AbsDimension x="0" y="-25" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						BuffBlock_GetOption(11);
+					</OnShow>
+					<OnClick>
+						BuffBlock_SetOption(11);
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+						<CheckButton name="BlessingClawCheckbox" inherits="BuffBlockCheckboxTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="BlessingSanctuaryCheckbox">
+						<Offset>
+							<AbsDimension x="0" y="-25" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						BuffBlock_GetOption(12);
+					</OnShow>
+					<OnClick>
+						BuffBlock_SetOption(12);
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+						<CheckButton name="AncestralFortitudeCheckbox" inherits="BuffBlockCheckboxTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="BlessingClawCheckbox">
+						<Offset>
+							<AbsDimension x="0" y="-25" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						BuffBlock_GetOption(13);
+					</OnShow>
+					<OnClick>
+						BuffBlock_SetOption(13);
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+						<CheckButton name="HealingWayCheckbox" inherits="BuffBlockCheckboxTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="AncestralFortitudeCheckbox">
+						<Offset>
+							<AbsDimension x="0" y="-25" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						BuffBlock_GetOption(14);
+					</OnShow>
+					<OnClick>
+						BuffBlock_SetOption(14);
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+						<CheckButton name="InspirationCheckbox" inherits="BuffBlockCheckboxTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="HealingWayCheckbox">
+						<Offset>
+							<AbsDimension x="0" y="-25" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						BuffBlock_GetOption(15);
+					</OnShow>
+					<OnClick>
+						BuffBlock_SetOption(15);
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+						<CheckButton name="Vampirism5Checkbox" inherits="BuffBlockCheckboxTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="InspirationCheckbox">
+						<Offset>
+							<AbsDimension x="0" y="-25" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						BuffBlock_GetOption(16);
+					</OnShow>
+					<OnClick>
+						BuffBlock_SetOption(16);
+					</OnClick>
+				</Scripts>
+			</CheckButton>
 			<Button name="BuffBlockClose" inherits="GameMenuButtonTemplate" text="Close">
 				<Anchors>
 					<Anchor point="CENTER" relativePoint="BOTTOM" relativeTo="BuffBlockOptions">
