@@ -26,6 +26,13 @@ Use /sbb or /buffblock in-game to access the context menu to enable/disable bene
 - Arcane Brilliance
 - Divine Shield
 - Blessing of Protection
+- Greater Blessing of Sanctuary
+- Blessing of Sanctuary
+- Blessing of the Claw
+- Ancestral Fortitude
+- Healing Way
+- Inspiration
+- Vampirism 5
 
 **Notes**
 
